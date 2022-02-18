@@ -1,1 +1,2 @@
-# studentManagement app developed by Kevin Lobos and Jenna Hernandez
+# Student Management 
+developed by Kevin Lobos and Jenna Hernandez
