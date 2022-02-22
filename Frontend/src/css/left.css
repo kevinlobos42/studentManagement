@@ -1,6 +1,31 @@
 .container-left {
   margin: 0;
-  padding: 0;
+  padding: 50px 0 0 0;
   width: 55%;
   background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+#login-text {
+  font-family: 'Dongle', sans-serif;
+  font-weight: bold;
+  font-size: 5.5rem;
+  margin-bottom: 1rem;
+}
+.input-login {
+  background: #daecf2;
+  width: 60%;
+  height: 60px;
+  margin-bottom: 2rem;
+  border-radius: 25px;
+  border: none;
+  outline: none;
+  padding-left: 1rem;
+}
+.input-login::placeholder {
+  color: #000;
+  opacity: 50%;
+  font-size: 1rem;
 }

@@ -1,9 +1,8 @@
 import '../css/button.css'
 
-function Button({color}) {
-    console.log(color)
+function Button({color, text}) {
   return (
-    <button className={"btn btn-" + (color=="white"?'white':'blue')}>Sign Up</button>
+    <button className={"btn btn-" + (color==="white"?'white':'blue')}>{text}</button>
   )
 }
 

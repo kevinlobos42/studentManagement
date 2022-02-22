@@ -1,15 +1,18 @@
-import Left from "./components/Left";
-import Right from "./components/Right";
 import './css/app.css'
 import 'antd/dist/antd.less'
-
-
+import Login from './components/Login';
+import Main from './components/Main'
 
 function App() {
+  let loggedin = false;
   return (
     <div className="App">
-      <Left />
-      <Right />
+      {
+        loggedin ?
+        <Main />
+        :
+        <Login />
+      }
     </div>
   );
 }
