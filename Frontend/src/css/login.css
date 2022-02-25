@@ -1,0 +1,69 @@
+.login_container {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+}
+/* Left ---------------------- */
+.container-left {
+  margin: 0;
+  padding: 20px 0 0 0;
+  width: 55%;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+#login-text {
+  font-family: 'Dongle', sans-serif;
+  font-weight: bold;
+  font-size: 5rem;
+  margin-bottom: 0.5rem;
+}
+.input-login {
+  background: #daecf2;
+  width: 60%;
+  height: 60px;
+  margin-bottom: 1.5rem;
+  border-radius: 25px;
+  border: none;
+  outline: none;
+  padding-left: 1rem;
+}
+.input-login::placeholder {
+  color: #000;
+  opacity: 50%;
+  font-size: 1rem;
+}
+/* Right ------------------------ */
+.container-right {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  width: 45%;
+  background: linear-gradient(to left, #0083fb, #00b9fb);
+}
+#signup-title,
+#signup-desc {
+  font-family: 'Dongle', sans-serif;
+  color: #fff;
+}
+#signup-title {
+  font-size: 6rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+#signup-desc {
+  opacity: 46%;
+  font-size: 3rem;
+  margin-bottom: 4rem;
+  line-height: 50px;
+}
+.inner-container {
+  width: 70%;
+  margin-top: -10rem;
+}
